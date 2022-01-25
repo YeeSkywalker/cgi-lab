@@ -37,7 +37,7 @@ def login_page():
     Returns the HTML for the login page.
     """
 
-    return _wrapper(r"""
+    return _wrapper("""
     <h1> Welcome! </h1>
 
     <form method="POST" action="login.py">
